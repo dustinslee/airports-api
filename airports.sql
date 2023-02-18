@@ -8,7 +8,6 @@ create table airports (
   KEY (AirportID)
 );
 
-ALTER TABLE airports AUTO_INCREMENT;
 insert into airports (AirportID, AirportName, AirportCode, Municipality, Country, Continent) values (1, 'Srednekolymsk Airport', 'SEK', 'Srednekolymsk', 'RU', 'EU');
 insert into airports (AirportID, AirportName, AirportCode, Municipality, Country, Continent) values (2, 'Thief River Falls Regional Airport', 'TVF', 'Thief River Falls', 'US', 'NA');
 insert into airports (AirportID, AirportName, AirportCode, Municipality, Country, Continent) values (3, 'La Gaviota Airport', 'LGT', null, 'CO', 'SA');

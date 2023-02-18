@@ -29,7 +29,7 @@ router.post("/", async (req, res, next) => {
  }
 });
 
-router.put("/:id?", async (req, res, next) => {
+router.put("/:id", async (req, res, next) => {
   try {
     const { id } = req.params;
     const updateAirport = req.body;
@@ -40,7 +40,7 @@ router.put("/:id?", async (req, res, next) => {
  }
 });
 
-router.delete("/:id?", async (req, res, next) => {
+router.delete("/:id", async (req, res, next) => {
   try {
     const { id } = req.params;
     const data = await airports.remove(id);
